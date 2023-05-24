@@ -56,7 +56,7 @@ const AccountScreen = () => {
           source={require("./assets/btnSigninwithApple.png")} style={styles.dot} />
                         <View>
                             <View style={styles.orderStatusContainer}>
-                                <Text style={styles.statusHeading}>Apple</Text>
+                                <Pressable><Text style={styles.statusHeading}>Apple</Text></Pressable>
                                 <Text style={[styles.statusHeading, styles.statusTime]}>Connected</Text>
                             </View>
                         </View>
@@ -66,7 +66,7 @@ const AccountScreen = () => {
           source={require("./assets/btnSigninwithGoogle.png")} style={styles.dot} />
                         <View>
                             <View style={styles.orderStatusContainer}>
-                                <Text style={styles.statusHeading}>Google</Text>
+                                <Pressable><Text style={styles.statusHeading}>Google</Text></Pressable>
                                 <Text style={[styles.statusHeading, styles.statusTime]}>Connected</Text>
                             </View>
                         </View>
